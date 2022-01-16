@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+
+  <!-- link per abilitare il browser all'uso di ubuntu  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- blocconero comprende solo il riquadro nero trasparente,
+    le (poche) operazioni sui blocchi interni sono state fatte su
+    elementiblocco -->
+
+    <div class="blocconero">
+
+    <div class="elementiblocco">
+
+<!-- blocco1 è il logo e la scritta -->
+
+    <div class="blocco1">
+      <header>
+        <img src="logo.png" height="50"> <br/>
+        <span class="greenspecial">Taking Booleaners from A to B</span>
+      </header>
+    </div>
+
+<!-- blocco2 è il pannello verde con i 3 pulsanti -->
+
+    <div class="blocco2">
+      <nav>
+
+        <button type="button" name="button">Prenota</button>
+        <button type="button" name="button">Termina prenotazione</button>
+        <button type="button" name="button">Accendi luci</button>
+
+      </nav>
+    </div>
+
+    <!-- blocco3 è l'elenco di tutti i monopattini -->
+
+    <div class="blocco3">
+        <div id="monopattino01">
+        <input type="checkbox" name="scelta1" class="check">
+        <span class="nomemonopattino">Monopattino Gino22</span> <br/>
+        <span class="descrizione">↦Via Guadalametri - a 220 metri da te</span> <br/>
+        <span class="descrizione">Stato carica:</span>
+        <div id="sbarra1"></div>
+        </div>
+
+        <div id="monopattino02">
+        <input type="checkbox" name="scelta2" class="check">
+        <span class="nomemonopattino">Monopattino Mike24</span> <br/>
+        <span class="descrizione">↦Via Ricciardoni - a 420 metri da te</span> <br/>
+        <span class="descrizione">Stato carica:</span>
+        <div id="sbarra2"></div>
+        </div>
+
+        <div id="monopattino03">
+        <input type="checkbox" name="scelta3" class="check">
+        <span class="nomemonopattino">Monopattino Fede154</span> <br/>
+        <span class="descrizione">↦Via Mentarini - a 490 metri da te</span> <br/>
+        <span class="descrizione">Stato carica:</span>
+        <div id="sbarra3"></div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+  </body>
+</html>

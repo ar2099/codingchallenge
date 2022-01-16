@@ -1,0 +1,128 @@
+body {
+  background-image:url(background.jpg);
+  background-size:     cover;
+  font-style: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.blocconero {
+  background-color: rgba(0, 0, 0, 0.45);
+  width: 630px;
+  height: 420px;
+  margin: auto;
+  border-radius: 5px;
+    top: +23px;
+    position: relative;
+}
+
+.elementiblocco {
+  position: relative;
+    top: +50px;
+  width: 520px;
+  margin: auto;
+}
+
+/* è la tonalità del verde della scritta del blocco1,
+background blocco 2 */
+
+.greenspecial {
+  color: #00DD00;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* logo e slogan */
+
+.blocco1 {
+  width: 99%;
+  margin: auto;
+  text-align: center;
+}
+
+/* barra verde e tre pulsanti */
+.blocco2 {
+  background-color: #00dd00;
+  width: 500px;
+  height: 23px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+
+
+button {
+  font-size: 7px;
+}
+
+/* inizio impostazioni grafiche blocco3 */
+
+.blocco3 {
+  top: +6px;
+  position: relative;
+  width: 500px;
+  margin: auto;
+}
+
+/* relativo al nome del monopattino (scritta grande) */
+
+.nomemonopattino {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* sono relativi alle scritte delle descrizioni dei monopattini */
+
+.descrizione {
+  font-size: 10px;
+  color: white;
+  font-size: 8px;
+  font-weight: lighter;
+}
+
+/* sono le tre barre di caricamento dei monopatini */
+#sbarra1 {
+  height: 20px;
+  width: 210px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#sbarra2 {
+  height: 20px;
+  width: 400px;
+  background-color: #1EC31E;
+  border-radius: 5px;
+}
+
+#sbarra3 {
+  height: 20px;
+  width: 80px;
+  background-color: #BE4141;
+  border-radius: 5px;
+}
+
+/* dimensione checkbox */
+.check {
+  height: 8px;
+  margin: 0px;
+}
+
+/* distanziamento dei blocchi interni a blocco3  */
+
+#monopattino01 {
+  position: relative;
+    top: +6px;
+}
+
+#monopattino02 {
+  position: relative;
+    top: +12px;
+
+}
+
+#monopattino03 {
+  position: relative;
+    top: +18px;
+}
